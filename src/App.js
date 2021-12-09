@@ -1,10 +1,9 @@
-import React from 'react';
 import './App.css';
-
+import MList from './components/MList';
 function App() {
   return (
-    <div className="App">
-      Async Redux Project
+    <div className='App'>
+      <MList />
     </div>
   );
 }
